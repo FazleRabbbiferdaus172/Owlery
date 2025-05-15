@@ -50,7 +50,7 @@ owl-setup-tutoral
 Make sure to name the folders and files exactly, especially src and dist, as Webpack relies on them by default.
 
 
-## File contentes
+## File contents
 
 This tutorial creates a minimal OWL project that displays "Hello World" in the browser. Below are the contents of each file:
 
