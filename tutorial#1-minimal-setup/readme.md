@@ -1,4 +1,4 @@
-# A minmal owl project setup  
+# A Minimal OWL Project Setup  
 ---
 
 OWL is designed to be used with no tooling, so a static html is enough to run an OWL project. However, this tutorial demonstrates a minimal setup using the bundling tool Webpack.
