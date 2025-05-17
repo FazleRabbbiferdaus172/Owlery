@@ -1,0 +1,6 @@
+Dynamically Loading Templates from XML Files
+This is a rough experiment to check if component templates can be loaded from an XML file in OWL. After a lot of digging because the OWL references don't make it clear how this works the only reference I found was [this one](https://github.com/odoo/owl/blob/master/doc/reference/app.md#loading-templates). Even that doesn't clearly state how templates from env can be assigned to a component.
+
+So, in order to load a template from an XML file, I used loadFile and then assigned the loaded template to the component using a template literal and the xml helper. The xml helper from OWL expects it to be a template literal.
+
+Although this has limitations and is not a good way to do it, I will explore [this reference](https://github.com/odoo/owl/blob/master/doc/reference/precompiling_templates.md) to find a better project structure where I can have separate XML template files and not have to write XML inside a template literal. Inline templates aren't that bad if components are kept small, but without additional tooling, inline templates are error prone and hard to write because there's no auto-suggestion.

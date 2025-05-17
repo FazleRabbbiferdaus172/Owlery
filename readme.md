@@ -4,3 +4,6 @@ This repository holds some experiment on owl (Odoo web library). In future it wi
 
 ## Tutorials
 1. [Setup owl with webpack](./tutorial-1-minimal-setup/readme.md)
+
+## Experiments
+1. [Loading Template from xml](./experiment-1-loading-template-from-xml/readme.md)
