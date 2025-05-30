@@ -10,7 +10,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'tutorial-2-css-library-setup-webpack-owl',
+            title: 'tutorial-3-owl-use-child-components',
         }),
     ]
 }
