@@ -36,7 +36,7 @@ npm install --save-dev webpack webpack-cli html-webpack-plugin style-loader css-
 
 ### CSS sytle
 
-create a style.css in the project root with following conents.
+create a `style.css` in the project root with following conents.
 ```
 .title {
     color: white;
@@ -47,7 +47,7 @@ create a style.css in the project root with following conents.
 
 ### OWL Application (main.js)
 
-Create main.js in the project root:
+Create `main.js` in the project root:
 ```
 import { mount, Component, xml } from "@odoo/owl";
 import 'bulma/css/bulma.css'
@@ -64,7 +64,7 @@ Imports OWL essentials and `style.css`. Defines a simple Main component and moun
 
 ### Webpack Configuration
 
-Create webpack.config.js in the project root:
+Create `webpack.config.js` in the project root:
 ```
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -99,6 +99,6 @@ webpack
 Webpack bundles assets into the dist folder and HtmlWebpackPlugin creates dist/index.html. Styles are injected.
 
 ## View:
-Open dist/index.html in a web browser to see something like the following image.
+Open `dist/index.html` in a web browser to see something like the following image.
 
 ![demo](./../misc/demo-tutorial-2.png)
