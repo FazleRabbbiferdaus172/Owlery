@@ -5,7 +5,7 @@ This repository holds some experiment on owl (Odoo web library). In future it wi
 ## Tutorials
 1. [Setup owl with webpack](./tutorial-1-minimal-setup/readme.md)
 2. [Css Library Setup Webpack Owl](./tutorial-2-css-library-setup-webpack-owl/readme.md)
-3. [Owl Use Child Components](./tutorial-3-owl-use-child-components/readme.md)
+3. [Creating and Using Sub Components](./tutorial-3-owl-use-child-components/readme.md)
 4. [Owl UseState hook](./tutorial-4-owl-useState-hook/readme.md)
 5. [Owl UseEffect Hook](./tutorial-5-owl-useEffect-hook/readme.md)
 6. [Owl Passing Componenet Using Slot](./tutorial-6-passing-componenet-using-slot/readme.md)

@@ -56,10 +56,6 @@ class MainComponenet extends Component {
 const app = new App(MainComponenet)
 app.mount(document.body)
 ```
-Of course. Here is a corrected version of the text with improved grammar and spelling for clarity:
-
----
-
 This code imports OWL essentials, then defines two components named `Parent` and `Child`.
 
 In OWL, components are class-based and must inherit from the `Component` class. The `Component` class has a few `static properties` that are needed to completely define a component. One of these is the `template` static property, which defines the component's structure in the DOM tree. Depending on your use case, you may need to define other static properties.
