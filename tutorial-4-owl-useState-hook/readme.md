@@ -2,6 +2,64 @@
 
 this guide demostrates how to use the useState hook in owl
 
+## Prerequisites & Tools
+Node.js and npm (or yarn): From nodejs.org.
+
+## Key npm packages:
+- @odoo/owl (OWL framework)
+- webpack
+- webpack-cli
+- html-webpack-plugin
+
+## Setup Steps
+
+### Project Initialization
+
+Create Directory:
+```
+mkdir your-directory-name
+cd your-directory-name
+```
+
+Initialize npm:
+```
+npm init -y
+```
+Install Dependencies:
+```
+npm install @odoo/owl
+npm install --save-dev webpack webpack-cli html-webpack-plugin
+
+### OWL Application (main.js)
+
+Create `main.js` in the project root:
+
+```
+import {App, Component, useState, xml} from "@odoo/owl"
+
+class Main extends Component {
+    static template = xml`
+                        <div>
+                            <button t-on-click="incrementCount" style="width: 3rem">+</button>
+                            <span t-esc="state.count" style="padding: 0px 25px"/>
+                            <button t-on-click="decrementCount" style="width: 3rem">-</button>
+                        </div>                        
+                        `
+    state = useState({count: 0})
+
+    incrementCount() {
+        this.state.count += 1
+    }
+
+    decrementCount() {
+        this.state.count -= 1
+    }
+}
+
+const app = new App(Main)
+app.mount(document.body)
+```
+
 
 ### Webpack Configuration
 
