@@ -29,6 +29,7 @@ Install Dependencies:
 ```
 npm install @odoo/owl
 npm install --save-dev webpack webpack-cli html-webpack-plugin
+```
 
 ### OWL Application (main.js)
 
