@@ -1,0 +1,14 @@
+{
+  "name": "tutorial-8-load-templates-form-xml",
+  "version": "1.0.0",
+  "author": "Fazle Rabbi Ferdaus",
+  "dependencies": {
+    "@odoo/owl": "^2.4.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
