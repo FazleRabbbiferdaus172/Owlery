@@ -1,4 +1,4 @@
-import {App, Component, xml, loadFile, whenReady} from "@odoo/owl"
+import {App, Component, loadFile, whenReady} from "@odoo/owl"
 
 
 class Main extends Component {
