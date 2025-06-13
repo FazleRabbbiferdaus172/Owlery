@@ -9,8 +9,8 @@ This repository holds some experiment on owl (Odoo web library). In future it wi
 4. [Owl UseState hook](./tutorial-4-owl-useState-hook/readme.md)
 5. [Owl UseEffect Hook](./tutorial-5-owl-useEffect-hook/readme.md)
 6. [Owl Passing Componenet Using Slot](./tutorial-6-passing-componenet-using-slot/readme.md)
-7. [Webpack index template](./tutorial-7-webpack-index-template/)
-8. [Owl loading template from xml](./tutorial-8-load-templates-form-xml/)
+7. [Webpack index template](./tutorial-7-webpack-index-template/readme.md)
+8. [Owl loading template from xml](./tutorial-8-load-templates-form-xml/readme.md)
 
 ## Experiments
 1. [Loading Template from xml](./experiment-1-loading-template-from-xml/readme.md)
