@@ -1,0 +1,1 @@
+This will have the guide to loading templates from xml file
