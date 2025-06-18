@@ -11,6 +11,7 @@ This repository holds some experiment on owl (Odoo web library). In future it wi
 6. [Owl Passing Componenet Using Slot](./tutorial-6-passing-componenet-using-slot/readme.md)
 7. [Webpack index template](./tutorial-7-webpack-index-template/readme.md)
 8. [Owl loading template from xml](./tutorial-8-load-templates-form-xml/readme.md)
+9. [Owl input binding](./tutorial-9-owl-input-binding/readme.md)
 
 ## Experiments
 1. [Loading Template from xml](./experiment-1-loading-template-from-xml/readme.md)
