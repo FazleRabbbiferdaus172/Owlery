@@ -65,6 +65,12 @@ const app = new App(Main)
 app.mount(document.body)
 ```
 
+In owl, you must call hooks inside the **setup function** or in class **fields**. We have used useState and useEffect hooks in the code snippet. We used useState hook in class field and useEffect hook inside setup function.
+
+The useEfftect hook takes 2 function as parameter. The **effect function** and the **dependency function**. The effect function can optionally return a clean up function. The clean up function will be run before the next useEffect call. 
+
+If your dependency function return a empty array then this effect function will be called only once. Other wise if you include any class field as dependency this effect function will be call if any of the dependend fields are changed.
+
 
 ### Webpack Configuration
 
