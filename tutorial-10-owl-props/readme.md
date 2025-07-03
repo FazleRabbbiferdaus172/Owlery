@@ -1,1 +1,1 @@
-# This will hold tutorial to use and pass owl props
+# This will hold tutorial to use and pass owl props and static props
